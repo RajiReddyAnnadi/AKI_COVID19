@@ -1,0 +1,727 @@
+Study ID,COVID19+ (y/n),Age,Sex,BMI,HTN (y/n),DM (y/n),CAD (y/n),Vascular disease (y/n),"HF (HFrEF, HFpEF, none)",CKD (y/n),ESRD (y/n),COPD (y/n),"Other lung diseases (y/n), if Y list them",ACEI (y/n),ACEi Name and dose,ARB (y/n),ARB Name and dose,Status of ACE/ARB on admission,SBP/DBP on admission,MAP on admission,Cr at admmsion,Peak Cr during hospital stay,Cr at discharge,Ferritin on admission,Peak Ferritin Level,LDH on admission,Peak LDH level,Absolute lymphocyte count (ALC) on admission,Nadir of ALC,ESR on admission,Peak ESR Level,D-dimer on admission,Peak D-dimer level,CRP on admission,Peak CRP level,AKI?,RRT (y/n),HD (y/n),CRRT/CVVHD (y/n),IVF use on admission,How much IVF (ml),What type of IVF,BNP on admission,Pulm edema on CXR on admission,ICU admission?,Mechanical ventilation (y/n),Outcome (discharged vs death)
+,0,1,0,1,0,0,0,0,0,0,0,0,-1,0,-1,0,-1,0,-1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Y,0,0,0,0,1,0,1,0,0,0,0
+1,y,30,M,28,N,N,N,N,N,N,N,N,N,n,,n,,,130/82,98,1.03,,,2141,,688,,0.81,,25,,349,,6.7,,n,n,n,n,Y,1000,LR,143,N,Y,Y,
+2,y,55,M,37,Y,Y,N,Y,N,N,N,N,N,n,,n,,,111/69,83,1.06,1.22,0.82,,1017,,431,1.19,1.08,,107,,369,10.8,13.9,n,n,n,n,N,n/a,n/a,18,Y,N,N,discharged
+3,y,53,F,,N,N,N,N,N,N,N,N,N,n,,n,,,111/77,88,0.96,0.96,0.67,527.2,527.2,333,333,1.06,0.74,59,59,331,331,15.4,15.4,n,n,n,n,Y,2000,LR,77,N,N,N,discharged
+4,y,54,F,32,Y,N,N,N,N,N,N,N,N,n,,n,,,142/76,98,0.87,1.12,0.87,,,,,0.72,0.72,,,,,,,n,n,n,n,Y,1000,LR,100,N,Y,N,discharged
+5,y,39,M,27,N,N,N,N,N,N,N,N,N,n,,n,,,125/70,88,1.46,1.46,1.15,,,,,0.53,0.53,,,,,,,y,n,n,n,Y,1000,LR,,N,N,N,discharged
+6,y,61,F,27.11,Y,N,N,N,N,N,N,N,N,n,,y,losartan 50 daily,Held,117/58,78,0.95,,,1375,,403,,0.68,,95,,17806,,26,,y,y,y,n,Y,2000,LR,,N,Y,Y,
+7,y,57,F,24,N,N,N,N,N,N,N,N,N,n,,n,,,107/66,80,0.82,0.82,0.67,,816,236,402,0.8,0.52,,95,,710,1.3,22,n,n,n,n,Y,2000,LR,,N,N,N,Disharged
+8,y,62,M,41,Y,N,N,N,N,N,N,N,N,n,,y,losartan 100 daily,Continued,134/62,85,0.83,0.83,0.8,1490,1948,275,294,0.8,0.8,45,45,343,343,13.5,13.5,n,n,n,n,N,n/a,n/a,,Y,N,N,discharged
+9,y,42,F,38,Y,Y,N,N,N,N,N,N,N,n,,n,,,108/67,81,0.54,0.6,0.55,201.4,201.4,211,255,1.06,0.52,75,75,304,313,14.4,14.4,n,n,n,n,Y,1000,LR,29,Y,Y,Y,discharged
+10,y,88,M,22,Y,N,N,N,HFrEF,N,N,N,N,n,,n,,,106/51,69,1.3,1.5,0.98,256,2138,435,450,0.36,0.26,,,790,19864,3.7,9.9,y,n,n,n,N,n/a,n/a,16986,Y,N,N,Discharged
+11,y,52,F,25,N,N,N,N,N,N,N,N,N,n,,n,,,102/63,76,0.71,0.71,0.53,,380,345,384,1.45,1.03,,67,,398,,10.6,n,n,n,n,Y,1000,LR,145,N,N,N,discharged
+12,y,49,F,25,Y,Y,N,N,N,N,N,N,N,n,,n,,,155/89,111,0.51,0.54,0.46,148,228,338,550,1.13,0.42,,133,197,622,13.4,18.2,n,n,n,n,Y,1000,LR,,N,Y,Y,Discharged
+13,y,49,F,40,N,Y,Y,N,N,Y,Y,N,"Y, asthma",n,,n,,,124/77,93,5.55,14.49,9.57,,2586,389,507,0.85,0.79,,86,559,1201,2.9,21.3,n/A (ESRD),y,y,n,N,n/a,n/a,,N,N,N,Discharged
+14,y,41,M,,N,Y,N,N,N,N,N,N,N,n,,n,,,134/79,97,0.8,0.83,0.81,1339,1339,256,256,1.69,1.32,78,78,323,323,20.7,22.7,n,n,n,n,Y,1000,LR,,N,Y,N,discharged
+15,y,32,F,28,N,N,N,N,N,N,N,N,N,n,,n,,,124/76,92,0.71,0.83,0.83,9.7,9.7,264,264,1.81,1.81,,,158,158,,,n,n,n,n,N,n/a,n/a,,N,N,N,discharged
+16,y,57,M,30,N,Y,N,N,N,N,N,N,N,n,,n,,,173/109,130,0.7,0.8,0.78,270.3,270.3,368,368,1.08,1.08,20,20,301,301,1.1,2.3,n,n,n,n,Y,1000,NS,,Y,N,N,discharged
+17,y,36,M,31,N,N,N,N,N,N,N,N,"Y, OSA",n,,n,,,149/83,105,1.02,,,1185,,934,,1.15,,,,,,34.9,,y,n,n,n,Y,1000,LR,121,Y,Y,Y,
+18,y,50,F,38,Y,Y,N,N,N,N,N,N,N,n,,n,,,107/67,80,1.14,,,434,,378,,0.65,,87,,268,,13.2,,y,n,n,n,Y,1000,LR,83,N,Y,Y,
+19,y,37,F,27,N,N,N,N,HFpEF,N,N,Y,N,n,,n,,,139/76,97,0.96,0.96,0.67,,237,235,292,0.88,0.63,,24,167,178,5.5,12.9,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+20,y,88,F,24,Y,N,N,N,HFpEF,N,N,Y,N,n,,y,valsartan 80 daily,continued,139/76,97,0.96,0.96,0.67,,236.8,235,292,0.88,0.63,,24,167,178,5.5,12.9,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+21,y,49,M,31,N,N,N,N,N,N,N,N,N,n,,n,,,126/83,97,0.74,0.74,0.64,,762,481,520,1.11,1.11,,40,,426,9,14.5,n,n,n,n,Y,1750,LR,,N,N,N,discharged
+22,y,43,F,27,N,N,N,N,N,N,N,N,N,n,,n,,,107/66,80,0.59,0.59,0.56,,,374,374,0.44,0.44,,,,,5,5,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+23,y,41,M,22,N,N,N,N,N,N,N,N,N,n,,n,,,138/70,93,0.53,0.71,0.61,,565,,351,,1.87,,63,6901,6901,2.3,10.1,y,n,n,n,Y,2000,LR,82,N,Y,Y,Discharged
+24,y,42,M,32,N,N,N,N,N,N,N,N,N,n,,n,,,108/71,83,1.03,1.03,0.91,,,169,169,1.61,1.33,,,,,1,1,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+25,y,36,M,34,N,N,N,N,N,N,N,N,N,n,,n,,,103/64,77,0.9,0.97,0.91,2215,2408,424,439,0.71,0.71,28,98,,1119,9,9,n,n,n,n,Y,1000,LR,,N,Y,N,Discharged
+26,y,87,F,22,Y,N,N,N,N,N,N,N,N,n,,n,,,132/78,96,0.92,0.95,0.7,,485,,406,0.93,0.32,,100,,6294,,9.9,n,n,n,n,Y,500,NS,,N,N,N,Discharged
+27,y,88,F,25,Y,N,N,N,HFpEF,N,N,N,N,n,,n,,,156/85,109,0.77,0.77,0.51,,238,,258,0.83,0.83,,164,,164,5.9,7.5,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+28,y,62,F,37,Y,Y,N,N,N,N,N,N,N,y,lisinopril 2.5mg daily,n,,"Continued, then held",135/73,94,0.36,1.57,1.06,236.4,891,312,944,0.51,0.37,18,82,,,7.5,35.3,y,n,n,n,Y,1000,NS,,N,Y,Y,death
+29,y,31,M,37,N,N,N,N,N,N,N,N,N,n,,n,,,129/82,98,0.87,0.93,0.7,852,1615,292,531,1.25,0.57,14,93,,937,1.9,7,n,n,n,n,Y,2000,LR,,N,Y,Y,discharged
+30,y,63,M,27,N,N,Y,N,N,N,N,N,"Y,OSA",n,,n,,,96/69,78,1.06,1.11,0.65,4132,4132,719,719,0.56,0.56,20,92,345,9842,7.8,24.7,n,n,n,n,Y,2000,LR and NS,404,Y,Y,Y,Discharged
+31,y,45,F,30,N,N,N,N,N,N,N,N,N,n,,n,,,128/69,89,0.89,1.01,0.75,618,796.8,444,444,0.99,0.95,40,73,665,771,8.2,14.6,n,n,n,n,Y,2000,LR and NS,,N,N,N,discharged
+32,y,72,M,30,Y,N,Y,Y,HFpEF,Y,N,Y,N,y,lisinopril 20 mg daily,n,,held,151/76,101,1.76,1.99,1.63,114.6,525.9,497,599,1.79,1.12,14,70,275,689,6.3,9.8,y,n,n,n,Y,1000,NS,,N,N,N,discharged
+33,y,59,M,,N,N,N,N,N,N,N,N,N,n,,n,,,136/75,95,0.91,0.91,0.6,,1096,317,446,1.03,0.7,,52,,190,,15.6,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+34,y,58,F,30,N,N,N,Y,N,N,N,N,N,n,,n,,,100/63,75,1.4,1.4,1.03,,703.3,163,487,2.58,1.04,,73,314,388,2.3,9.2,y,n,n,n,Y,650,LR,,N,N,N,Discharged
+35,y,60,M,31,Y,Y,N,N,N,N,N,N,N,n,,n,,,121/83,96,0.73,0.73,0.66,,,474,592,0.81,0.66,,54,335,335,3.8,12.4,n,n,n,n,Y,2000,LR,21,N,N,N,discharged
+36,y,88,M,21.22,Y,N,N,N,HFrEF,N,N,N,N,n,,y,losartan 50 daily,held,118/55,76,1.34,1.34,1.22,635,635,219,361,0.31,0.2,n/a,90,n/a,392,n/a,41.1,y,n,n,n,Y,1000,LR,4229,Y,N,N,death
+37,y,22,M,27,N,N,N,N,N,N,N,N,"Y, asthma",n,,n,,,129/67,88,0.7,0.77,0.77,,1221,424,424,1.19,0.7,,38,160,160,5.9,5.9,n,n,n,n,Y,1000,LR,0,N,N,N,discharged
+38,y,32,F,23,N,N,N,N,N,N,N,N,N,n,,n,,,101/66,78,0.64,,,267,,448,,0.74,,,,287,,12.6,,n,n,n,n,Y,2000,LR,10,N,Y,Y,
+39,y,46,M,28.5,N,N,N,N,N,N,N,N,N,n,,n,,,118/78,91,1.15,1.15,0.79,,817,231,261,0.82,0.78,,40,,209,3.2,9,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+40,y,58,F,24,N,N,N,N,N,N,N,N,N,n,,n,,,107/66,80,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,N,N,discharged
+41,y,79,M,,Y,Y,N,N,N,N,N,N,N,y,lisinopril 20 mg daily,n,,"Continued, then held",133/80,98,1.43,1.43,1.14,,971.2,,390,1.1,0.75,,50,,857,,5.2,y,n,n,n,N,n/a,n/a,,N,N,N,discharged
+42,y,68,M,33.29,Y,Y,Y,N,N,N,N,N,N,n,,y,losartan 100 daily,"Continued, then held",156/68,95,0.85,,,,,345,,0.48,,48,,592,,11.4,,y,y,y,y,Y,2000,LR,,N,Y,Y,
+43,y,66,F,,Y,N,Y,N,HFpEF,N,N,N,N,n,,y,valsartan 160 daily,"Continued, then held",130/85,100,0.8,,,825.7,,358,,,,53,,674,,22.2,,y,n,n,n,Y,1000,LR,,N,Y,Y,
+44,y,77,F,,N,N,,,HFpEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+45,y,37,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,y,n,y,Y,1000,LR,,N,Y,Y,
+46,y,48,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,2000,LR,,N,Y,Y,
+47,y,42,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,3000,LR and NS,,N,N,N,discharged
+48,y,55,F,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+49,y,87,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,Y,N,N,discharged
+50,y,52,M,30.86,Y,Y,N,N,N,N,N,N,"Y, asthma",n,,y,losartan 100 daily,"Continued, then held",109/73,83,1.31,1.31,0.95,,,562,562,0.65,0.52,,,429,429,8,8.6,y,n,n,n,Y,2000,NS,,N,N,N,discharged
+51,y,53,F,46.68,Y,N,N,N,N,N,N,N,N,n,,y,valsartan 320 daily,held,107/57,73,1.82,1.82,0.94,337.3,497.8,212,350,2.26,2.12,,134,,391,3.6,26.1,y,n,n,n,Y,2000,LR,25,N,N,N,discharged
+52,y,24,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+53,y,55,M,,N,N,,,N,,,,,n,,n,,,,,0.74,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+54,y,48,M,31.69,Y,N,N,N,N,N,N,N,N,n,,y,valsartan 160 daily,held,128/50,76,1.23,1.23,0.62,,643.5,,426,0.56,0.41,,71,,460,,4.1,y,n,n,n,Y,3000,LR and NS,,N,N,N,discharged
+55,y,66,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,59,N,N,N,discharged
+56,y,71,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,N,N,discharged
+57,y,60,M,,N,N,,,N,,,,,n,,n,,,,,0.81,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,Y,N,N,discharged
+58,y,48,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,Y,Y,discharged
+59,y,53,M,,N,N,,,N,,,,,n,,n,,,,,1.06,,,,,,,,,,,,,,,y,n,n,n,N,n/a,n/a,1773,Y,Y,Y,discharged
+60,y,24,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+61,y,51,M,32.54,Y,Y,N,N,N,N,N,N,N,y,lisinopril 10 daily,n,,continued,141/68,92,0.77,0.92,0.74,1139,1139,337,337,1.61,1.51,35,35,3487,3487,8.8,8.8,n,n,n,n,N,n/a,n/a,40,N,N,N,discharged
+62,y,41,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+63,y,34,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,N,N,discharged
+64,y,58,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,500,NS,,N,N,N,discharged
+65,y,32,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+66,y,48,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,Y,N,N,discharged
+67,y,89,M,,N,N,,,HFpEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1500,LR,,Y,N,N,death
+68,y,78,F,,N,N,,,HFpEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,N,N,discharged
+69,y,41,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,N,N,discharged
+70,y,31,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+71,y,71,M,32.12,Y,Y,N,N,N,Y,N,N,N,y,ramipril 10 d,n,,held,76/45,55,6.44,6.44,1.72,971.6,1839,302,519,1.03,0.49,,73,456,456,2.5,13.7,y,n,n,n,Y,4000,LR,,N,Y,N,discharged
+72,y,56,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,N,N,discharged
+73,y,92,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,n,n/a,n/a,,N,N,N,discharged
+74,y,81,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,y,2000,LR,614,N,Y,Y,death
+75,y,50,M,25,Y,N,N,N,N,N,N,N,N,n,,y,losartan 50 daily,continued,131/79,90,0.75,0.75,0.66,1376,1376,,,1.24,0.97,,101,,,,9.7,n,n,n,n,N,N/a,n/a,,Y,N,N,discharged
+76,y,66,M,,Y,N,,,HFrEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,1000,LR,,Y,Y,Y,death
+77,y,45,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,,N,N,N,discharged
+78,y,78,M,30.1,Y,N,Y,N,HFpEF,N,N,Y,N,n,,y,losartan 25 daily,"held, then continued",106/67,80,1.26,1.26,0.64,,,,216,1.43,0.53,33,33,,,7.9,7.9,y,n,n,n,Y,1000,LR,,N,N,N,discharged
+79,y,78,M,,Y,N,,,HFrEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,NS,,N,N,N,discharged
+80,y,36,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1875,LR,,N,N,N,discharged
+81,y,72,M,,Y,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,2000,LR,,Y,Y,Y,death
+82,y,35,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+83,y,65,M,34.31,Y,Y,Y,N,N,N,N,N,N,n,,y,olmesartan 40 daily,held,104/61,75,1.68,1.68,0.95,988.5,1349,210,314,0.16,0.16,28,76,158,2785,6.6,16.9,y,n,n,n,Y,2000,LR,24,N,N,N,discharged
+84,y,73,M,37.22,N,N,N,N,N,N,N,Y,N,n,,y,losartan 100 daily,continued,126/65,85,0.73,0.73,0.82,,401.1,225,225,1.09,1.09,,,171,171,0.9,0.9,n,n,n,n,N,N/a,n/a,42,Y,N,N,discharged
+85,y,86,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,3000,LR and NS,991,N,N,N,discharged
+86,y,73,M,,Y,N,,,HFrEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,1000,LR and NS,19001,N,Y,Y,death
+87,y,27,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+88,y,80,M,18.11,N,N,Y,Y,HFrEF,N,N,N,N,n,,y,valsartan 50 daily (part of ARNI),held,95/60,72,1.18,1.25,0.86,,,211,231,0.56,0.56,,,<150,<150,3,3,y,n,n,n,N,N/a,n/a,1091,N,N,N,discharged
+89,y,45,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,3000,LR and NS,,N,N,N,discharged
+90,y,69,F,31.25,Y,N,Y,N,N,N,N,Y,N,y,lisinopril 10 daily,n,,continued,113/65,81,0.8,0.8,0.73,,40.3,185,185,1.11,1.11,,126,,,5.7,5.7,n,n,n,n,Y,1000,LR,384,Y,N,N,discharged
+91,y,96,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,500,NS,311,N,N,N,discharged
+92,y,49,M,,Y,Y,N,N,N,Y,N,N,N,y,lisinopril 10 daily,n,,held,147/72,97,2.06,2.07,1.78,2120,2483,585,607,1.95,1.95,39,112,158,2296,13.8,19.9,n,n,n,n,Y,1000,LR,69,N,N,N,discharged
+93,y,26,F,,N,N,,,N,,,,,n,,n,,,,,0.69,0.69,0.58,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,,N,N,N,discharged
+94,y,51,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,42,N,Y,Y,discharged
+95,y,62,F,,N,N,,,N,,,,,n,,n,,,,,0.59,0.65,,,,,,,,,,,,,,n,N,N,N,Y,1000,LR,258,N,N,N,discharged
+96,y,74,F,,Y,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,N,N/a,n/a,,N,Y,Y,
+97,y,66,M,40.96,Y,Y,N,N,HFpEF,N,N,N,N,y,lisinopril 20 mg daily,n,,"Continued, then held",140/81,101,0.58,,,951.1,,341,,0.44,,,,170,,10.6,,n,n,n,n,Y,1000,LR,433,N,Y,Y,
+98,y,72,F,31.25,Y,Y,Y,N,N,Y,N,N,N,n,,y,losartan 100 daily,continued,150/65,93,1.83,2.56,2.56,,741,196,441,1.13,0.7,,124,365,393,,33.5,y,n,n,n,Y,2000,LR and NS,,N,N,N,death
+99,y,61,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,16,N,N,N,
+100,y,70,M,34.21,Y,Y,N,N,N,N,N,N,N,n,,y,irbesartan 300 daily,held,156/76,103,2.67,6.73,3.3,,3894,270,711,0.54,0.48,,107,305,9189,17.4,34.6,y,n,n,n,Y,1000,NS,,N,Y,Y,death
+101,y,72,M,,Y,N,N,N,N,Y,N,N,N,y,lisinopril 20 mg daily,n,,held,131/65,87,1.97,3.43,3.43,660,3297,321,734,0.52,0.07,81,81,413,413,18,43.2,y,n,n,n,Y,2000,LR and NS,978,N,Y,Y,death
+102,y,36,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2500,LR and NS,,N,N,N,
+103,y,39,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,,N,N,N,discharged
+104,y,87,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,N,N/a,n/a,176,N,N,N,discharged
+105,y,51,F,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+106,y,39,M,,N,N,,,N,,,,,n,,n,,,,,0.96,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+107,y,57,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,800,NS,,N,N,N,discharged
+108,y,68,F,,Y,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n/a (ESRD),y,y,n,Y,1000,LR,3481,Y,Y,N,discharged
+109,y,65,F,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,1000,LR,,N,Y,Y,death
+110,y,39,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,Y,Y,
+111,y,84,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,1000,NS,,N,Y,Y,death
+112,y,38,F,,N,N,,,N,,,,,n,,n,,,,,0.64,,,,,,,,,,,,,,,n,n,n,n,Y,3000,LR,,N,N,N,discharged
+113,y,73,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,
+114,y,56,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+115,y,53,M,43,Y,Y,N,N,N,N,N,N,N,n,,y,telmisartan 40 daily,continued,136/84,101,1.07,1.07,1.01,1049,1049,214,214,0.67,0.67,,,<150,<150,3.3,9,n,n,n,n,Y,2000,LR,65,Y,N,N,discharged
+116,y,47,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,1000,LR,,Y,Y,Y,death
+117,y,75,M,33,Y,N,Y,N,N,N,N,N,N,n,,y,losartan 100 daily,continued,130/78,95,1.06,1.06,0.87,,,372,372,1.33,1.33,,,466,466,6.2,6.2,n,n,n,n,N,N/a,n/a,163,Y,N,N,discharged
+118,y,65,M,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,readmission
+119,y,50,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,NS,86,N,Y,Y,
+120,y,68,M,32,Y,N,N,N,N,N,N,N,N,n,,y,losartan 25 daily,continued,129/75,93,0.99,0.99,0.74,1268,2418,392,392,0.56,0.56,18,33,764,960,7.3,21.9,n,n,n,n,Y,1000,LR,,N,Y,Y,discharged
+121,y,71,M,,Y,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+122,y,69,F,,N,N,,,N,,,,,n,,n,,,,,1.1,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,,N,N,N,discharged
+123,y,60,F,35,Y,Y,N,N,HFpEF,Y,N,N,N,n,,y,azilsartan 80 d,held,155/66,96,4.23,,,4202,,401,,0.43,,84,,185,,8,,y,y,y,n,Y,1000,LR,1346,N,N,N,
+124,y,83,M,28,Y,N,Y,N,N,N,N,N,N,y,lisinopril 40 mg daily,n,,held,155/88,110,1.37,1.37,1.12,,,,,1.15,1.03,,,,,,,y,n,n,n,N,N/a,n/a,,N,N,N,discharged
+125,y,56,F,,N,N,,,N,,,,,n,,n,,,,,0.56,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+126,y,66,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+127,y,65,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,Y,Y,
+128,y,63,M,,N,N,,,N,,,,,n,,n,,,,,0.95,0.95,0.73,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,14,N,N,N,discharged
+129,y,58,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n/a (ESRD),y,y,n,N,N/a,n/a,,Y,Y,Y,
+130,y,54,M,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,Y,Y,Y,
+131,y,45,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,58,N,Y,Y,discharged
+132,y,51,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,338,N,Y,Y,discharged
+133,y,72,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,499,N,N,N,discharged
+134,y,88,F,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,,N,N,N,discharged
+135,y,76,F,30,Y,N,Y,N,N,N,N,N,N,n,,y,losartan 25 daily,continued,184/74,111,0.73,0.98,0.94,,,,228,0.25,0.25,,11,,195,,1.2,n,n,n,n,Y,1000,NS,,N,N,N,discharged
+136,y,76,M,44,Y,N,N,N,N,N,N,N,N,n,,y,losartan 25 daily,held,182/79,113,1.1,,,,,,,1.15,,8,,,,2.2,,y,n,n,n,Y,500,NS,659,N,Y,Y,
+137,y,49,M,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+138,y,48,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+139,y,85,M,28,N,Y,Y,N,HFrEF,N,N,N,N,n,,y,valsartan 80 daily,"Continued, then held",147/67,94,1.03,2.19,2.07,43.7,279.7,247,782,1.09,0.11,,32,,34571,,19.2,y,n,n,n,N,N/a,n/a,,Y,Y,Y,death
+140,y,58,F,29,Y,N,Y,N,HFrEF,N,N,N,N,y,lisinopril 2.5mg daily,n,,held,116/80,92,1.01,1.01,1.01,,,,,0.87,,,,,,,,n,n,n,n,Y,1000,LR,,N,Y,Y,death
+141,y,70,F,28,Y,N,N,N,N,N,N,N,N,n,,y,losartan 50 daily,"Continued, then held",119/75,90,0.83,0.87,0.69,686,686,513,513,0.62,0.59,48,48,409,19630,11.9,37.2,n,n,n,n,Y,500,NS,,N,Y,Y,discharged
+142,y,33,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,500,LR,9,N,N,N,discharged
+143,y,80,F,25,Y,Y,N,N,N,N,N,N,N,n,,y,losartan 100 daily,held,158/61,93,1.34,1.62,1.26,161,161,281,281,1.01,0.34,,100,277,277,5.5,5.5,y,n,n,n,Y,500,NS,,N,N,N,death
+144,y,45,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,24,N,N,N,discharged
+145,y,73,F,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,460,N,N,N,discharged
+146,y,67,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,,N,N,N,discharged
+147,y,80,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,101,Y,Y,Y,
+148,y,88,M,,Y,Y,,,HFpEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n/a (ESRD),y,y,n,N,N/a,n/a,15487,Y,Y,Y,death
+149,y,28,F,,N,N,,,N,,,,,n,,n,,,,,0.61,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+150,y,59,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+151,y,66,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,500,NS,,N,Y,Y,
+152,y,68,F,30,Y,Y,Y,N,N,N,N,N,N,n,,y,losartan 25 daily,held,100/57,71,1.61,1.61,1.01,,842.1,336,361,1.31,1.08,,94,,2922,7.8,11.1,y,n,n,n,Y,3000,LR,386,N,N,N,Discharged
+153,y,56,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,500,NS,,N,N,N,Discharged
+154,y,44,F,,N,N,,,N,,,,,n,,n,,,,,1.03,,,,,,,,,,,,,,,n,n,n,n,Y,4500,LR and NS,,N,N,N,Discharged
+155,y,63,F,40,N,N,N,N,HFrEF,Y,N,N,"Y, OSA",n,,y,valsartan 50 daily (part of ARNI),continued,102/69,80,1.07,1.07,0.92,,,402,,1.16,0.66,,,363,363,19,19,n,n,n,n,Y,1000,NS,97,N,N,N,Discharged
+156,y,61,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,279,N,N,N,
+157,y,63,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,y,n,y,N,n/a,n/a,161,Y,Y,Y,
+158,y,48,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,NS,,N,N,N,Discharged
+159,y,27,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,397,N,Y,Y,
+160,y,35,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,Y,Y,
+161,y,59,M,39,Y,Y,N,N,N,N,N,N,N,n,,y,losartan 100 daily,held,121/77,92,1.31,5.1,1.38,593,816.4,368,454,0.74,0.12,64,72,238,238,28.4,42,y,n,n,n,Y,1500,NS,136,N,Y,Y,Discharged
+162,y,70,F,,Y,Y,,,N,,,,,n,,n,,,,,0.87,,,,,,,,,,,,,,,y,n,n,n,Y,1000,NS,,N,N,N,Discharged
+163,y,36,M,,N,N,,,N,,,,,n,,n,,,,,0.74,,,,,,,,,,,,,,,n,n,n,n,Y,1000,NS,,N,Y,N,Discharged
+164,y,73,M,23,Y,Y,N,N,N,Y,Y,N,"Y, Prior PNA/ARDS",n,,y,losartan 50 daily,continued,93/64,74,8.28,8.28,6.78,,,376,376,1.9,1.33,12,12,,,6.1,6.1,n/a (ESRD),y,y,n,Y,500,LR,,N,N,N,Discharged
+165,y,55,M,37,Y,N,N,N,N,N,N,N,N,y,ramipril 5 daily,n,,"continued, then held",108/63,78,1.14,,,1631,,564,,0.82,,34,,268,,31.6,,y,y,n,y,Y,2000,NS and LR,98,N,Y,Y,
+166,y,38,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,3000,LR,,N,N,N,Discharged
+167,y,36,M,,N,N,,,N,,,,,n,,n,,,,,0.74,,,,,,,,,,,,,,,n,n,n,n,Y,3000,NS,91,N,Y,Y,
+168,y,52,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,N,N,
+169,y,32,M,,N,N,,,N,,,,,n,,n,,,,,0.83,,,,,,,,,,,,,,,n,n,n,n,Y,3000,LR and NS,,N,N,N,Discharged
+170,y,59,M,,N,Y,,,N,,,,,n,,n,,,,,1.02,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,50,N,N,"N, DNR/DNI",Death
+171,y,89,M,39,Y,N,Y,N,N,N,N,N,N,y,ramipril 25 daily,n,,held,102/69,80,1.41,4.52,4.52,,912,,681,0.69,0.29,,,,530,,33.7,y,n,n,n,Y,500,LR,1675,N,Y,Y,Death
+172,y,36,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,N,N,Discharged
+173,y,53,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,Discharged
+174,y,70,F,,Y,N,,,HFrEF,,,,,n,,n,,,,,0.7,,,,,,,,,,,,,,,y,n,n,n,Y,2000,NS,13848,N,Y,Y,Discharged
+175,y,42,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,NS,,N,N,N,Discharged
+176,y,83,M,,Y,Y,,,HFpEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,250,LR,2014,Y,Y,Y,
+177,y,88,F,,Y,N,,,HFpEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,1000,NS,,N,N,N,Discharged
+178,y,47,F,,N,N,,,N,,,,,n,,n,,,,,0.78,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,Discharged
+179,y,38,M,29,N,Y,N,N,N,N,N,N,N,n,,y,losartan 50 daily,held,177/112,134,1.58,1.74,1.6,,,,,1.03,0.95,19,19,<150,<150,3.9,3.9,y,n,n,n,Y,1500,LR and NS,210,N,N,N,Discharged
+180,y,62,M,29,Y,N,N,N,N,N,N,N,N,y,enalapril 10 daily,n,,held,113/76,88,2.35,2.35,0.87,,388.2,284,322,0.93,0.51,,48,,234,1.1,3.2,y,n,n,n,Y,3000,LR and NS,,N,N,N,Discharged
+181,y,59,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,NS,,N,N,N,Discharged
+182,y,46,F,,N,N,,,N,,,,,n,,n,,,,,0.74,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,26,Y,Y,Y,
+183,y,46,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,4000,LR,,N,N,N,
+184,y,47,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,Discharged
+185,y,54,F,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,295,Y,Y,Y,
+186,y,63,M,,Y,N,N,N,N,N,N,N,N,y,lisinopril 20 mg daily,n,,held,122/63,83,0.89,0.89,0.8,,,522,570,0.89,0.89,,53,544,544,13.6,13.6,n,n,n,n,Y,2000,LR,,N,N,N,Discharged
+187,y,50,M,70,Y,N,N,N,N,N,N,N,Asthma 2/2 WTC Exposure,n,,y,valsartan 12.5 daily,held,114/68,84,1.28,,,759,,249,,0.88,,31,,323,,3.6,,y,n,n,n,Y,2000,LR,0,N,Y,Y,
+188,y,75,M,,Y,Y,,,N,,,,,n,,n,,,,,1.32,,,,,,,,,,,,,,,y,n,n,n,Y,3000,NS,,N,N,N,Discharged
+189,y,54,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,Y,Y,
+190,y,65,F,N/A,Y,Y,Y,N,HF (EF unknown),N,N,N,N,n,,y,olmesartan 40 daily,held,199/77,118,3.1,6.96,6.79,,,410,1145,1.45,0.21,81,137,,,5.8,36.3,y,y,y,n,Y,1000,LR,7694,Y,Y,Y,Death
+191,y,64,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,578,N,N,N,Discharged
+192,y,31,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,N,n/a,n/a,,N,N,N,Discharged
+193,y,68,F,22.4,Y,N,Y,N,N,N,N,N,N,y,lisinopril 30 mg daily,n,,held,133/60,84,0.74,0.77,0.76,,710.7,320,346,0.93,0.93,,112,2675,2675,2.7,12.5,n,n,n,n,N,n/a,n/a,,N,N,N,Discharged
+194,y,89,M,,Y,Y,,,HFpEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,500,NS,940,N,N,N,
+195,y,86,F,29,Y,N,N,Y,HFpEF,N,N,Y,N,y,lisinopril 2.5mg daily,n,,held,158/74,102,1.04,1.66,1.45,,,149,299,0.82,0.38,70,75,,1751,9.4,27.1,y,n,n,n,Y,1000,LR,3552,N,N,N,Death
+196,y,49,M,,N,N,,,N,,,,,n,,n,,,,,0.77,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,Y,Y,
+197,y,86,M,38,N,N,N,N,"HF, unknown EF",1.02,N,N,N,n,,y,valsartan 50 daily (part of ARNI),continued,85/58,67,1.15,1.15,0.92,205,656,274,969,0.58,0.18,,46,271,32127,5.3,16.7,n,n,n,n,N,n/a,n/a,5827,Y,N,N,death
+198,y,46,F,,N,Y,,,N,,,,,n,,n,,,,,0.81,0.81,0.72,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,8,N,N,N,Discharged
+199,y,81,M,,Y,N,,,HFpEF,,,,,n,,n,,,,,1.55,4.45,4.45,,,,,,,,,,,,,y,n,n,n,N,n/a,n/a,24338,N,Y,Y,Death
+200,y,72,M,31,N,Y,N,N,N,N,N,N,N,n,,y,olmesartan 40 daily,held,137/84,102,1.69,2.42,0.75,5687,5687,825,825,0.26,0.08,50,98,402,2415,33.7,33.7,y,n,n,n,N,n/a,n/a,,N,Y,Y,Discharged
+201,y,54,M,,N,N,,,N,,,,,n,,n,,,,,1.18,1.18,,,,,,,,,,,,,,n,n,n,n,Y,1000,NS,14,N,Y,N,
+202,y,82,F,,Y,N,,,N,,,,,n,,n,,,,,1.47,1.53,1.38,,,,,,,,,,,,,y,n,n,n,N,n/a,n/a,,N,N,N,Discharged
+203,y,64,M,27,Y,Y,Y,N,HFrEF,N,N,N,N,y,ramipril 10 d,n,,"held, then continued",130/60,83,1.3,1.6,1.18,,979,299,542,0.57,0.26,,133,,1290,,21.7,y,n,n,n,Y,5500,NS,481,Y,N,N,Discharged
+204,y,39,F,,N,N,,,N,,,,,n,,n,,,,,0.59,0.55,0.52,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,Discharged
+205,y,68,M,,N,Y,,,N,,,,,n,,n,,,,,0.8,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,Y,Y,
+206,y,76,F,,Y,Y,,,HFrEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,1000,NS,7002,N,Y,Y,
+207,y,69,M,26,Y,Y,N,N,N,N,N,N,N,n,,y,losartan 50 daily,held,148/80,100,1.04,,,3148,,333,,0.59,,39,,628,,13.7,,n,n,n,n,Y,1000,LR,,N,Y,Y,
+208,y,38,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,3000,LR and NS,,N,N,N,Discharged
+209,y,44,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,Discharged
+210,y,54,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,4000,LR,32,N,N,N,Discharged
+211,y,56,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,624,N,Y,Y,
+212,y,51,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,NS,137,N,N,N,Discharged
+213,y,86,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,3000,LR and NS,,Y,N,N,Discharged
+214,y,56,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,21,N,N,N,Discharged
+215,y,27,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,N,N,Discharged
+216,y,69,M,25,Y,N,N,N,N,N,N,N,N,y,enalapril 10 daily,n,,"held, then continued",72/46,55,1.06,1.06,0.84,1685,1685,470,470,0.63,0.52,58,58,173,173,12.8,15.9,n,n,n,n,Y,4000,LR and NS,89,N,N,N,Discharged
+217,y,69,F,37,Y,Y,N,N,N,N,N,N,"Y, asthma",y,ramipril 10 d,n,,continued,124/74,91,0.75,0.79,0.74,,,220,220,1.85,0.85,,,,,3,3,n,n,n,n,N,n/a,n/a,,N,N,N,Discharged
+218,y,28,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,n/a,n/a,,N,N,N,Discharged
+219,y,66,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,3000,LR,,N,N,N,Discharged
+220,y,19,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,Discharged
+221,y,57,M,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,N,N/a,n/a,,N,Y,Y,Discharged
+222,y,91,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,N,N/a,n/a,,Y,N,N,discharged
+223,y,51,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+224,y,67,F,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,50,N,N,N,discharged
+225,y,75,F,28,Y,Y,N,N,HFpEF,N,N,N,N,n,,y,losartan 25 daily,continued,147/60,89,1.5,2.41,1.49,740,1793,275,502,1.16,0.76,,127,,2231,0.6,16.8,y,n,n,n,Y,500,NS,661,N,N,N,discharged
+226,y,57,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+227,y,88,M,28,Y,N,N,N,N,Y,N,N,N,y,lisinopril 20 mg daily,n,,held,133/66,88,1.72,1.75,1.75,717,717,342,342,0.28,0.18,41,41,14880,14880,14.1,14.1,n,n,n,n,N,N/a,n/a,1911,Y,N,N,Death
+228,y,56,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,
+229,y,31,M,42,Y,N,N,N,N,N,"Y, s/p transplant",N,N,y,enalapril 20 daily,n,,continued,116/119,133,3.11,3.39,3.39,,,448,448,0.42,0.42,,,<150,<150,2.2,2.2,n,n,n,n,N,N/a,n/a,194,N,N,N,discharged
+230,y,50,M,,Y,N,,,HFrEF,,,,,n,lisinopril 20 mg daily,n,,"Started during admission, no prior use",,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,85,N,N,N,discharged
+231,y,48,M,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,272,N,Y,N,
+232,y,50,F,,Y,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,,N,N,N,discharged
+233,y,69,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,108,N,N,N,discharged
+234,y,57,F,28,Y,Y,Y,Y,N,N,N,N,N,y,lisinopril 10 daily,n,,"Continued, then held",118/69,85,0.75,0.75,0.52,301,768,258,340,2.03,1.67,25,55,,520,1.9,5.9,n,n,n,n,Y,1000,NS,23,N,N,N,Discharged
+235,y,80,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,1000,LR,,N,N,N,death
+236,y,86,M,,N,Y,,,HFrEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,13020,Y,N,N,Discharged
+237,y,29,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+238,y,54,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,500,NS,,N,N,N,discharged
+239,y,77,F,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,Y,Y,
+240,y,76,F,25,Y,N,N,N,N,N,N,N,"Y, asthma",n,,y,azilsartan 80 d,held,151/73,99,0.97,,,1198,,320,,0.73,,68,,449,,12,,n,n,n,n,Y,1001,LR,,N,Y,Y,
+241,y,85,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,NS,,N,N,N,discharged
+242,y,93,F,25,Y,Y,N,Y,HFpEF,N,N,N,N,n,,y,losartan 50 daily,held,135/90,105,0.89,1.27,0.81,,1536,255,635,1.36,0.31,,134,1347,1347,10.6,27.8,n,n,n,n,N,N/a,n/a,34705,Y,Y,N,Discharged
+243,y,52,M,30,Y,Y,N,N,N,N,N,N,N,y,enalapril 10 daily,n,,held,128/85,99,0.91,0.91,0.71,,723,339,339,1.53,1.32,,52,165,213,9.2,9.2,n,n,n,n,Y,2000,LR,9,N,N,N,Discharged
+244,y,30,M,,Y,N,,,HFrEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,1000,LR,13,N,N,N,Discharged
+245,y,80,F,31,Y,Y,N,N,N,Y,N,N,N,y,enalapril 10 daily,n,,"held, then continued",110/66,81,1.72,1.72,0.91,,197,220,298,2.09,1.71,,84,,511,1.4,9.3,y,n,n,n,Y,1500,LR,,N,N,N,discharged
+246,y,74,F,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,,Y,N,N,discharged
+247,y,43,F,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1500,LR and NS,,N,N,N,discharged
+248,y,53,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,13,N,N,N,discharged
+249,y,61,M,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,500,NS,,Y,Y,Y,death
+250,y,74,F,26.3,Y,N,N,N,N,N,N,N,N,y,lisinopril 10 daily,n,,"held, then continued",139/89,106,1.12,1.12,0.81,,86.3,293,293,0.78,0.78,,67,269,287,7.5,7.5,n,n,n,n,Y,1000,LR,73,Y,N,N,discharged
+251,y,87,M,24,Y,N,Y,N,"HF, unknown EF",N,N,N,N,y,enalapril 2.5 daily,n,,continued,142/82,102,1.13,1.16,1.03,,513,266,357,0.57,0.51,,13,,,1.7,7.3,n,n,n,n,N,N/a,n/a,5004,Y,N,N,Discharged
+252,y,47,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,712,N,Y,Y,
+253,y,78,F,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,N,N/a,n/a,5118,N,N,N,discharged
+254,y,25,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,23,N,N,N,Discharged
+255,y,52,M,32,Y,N,N,N,N,N,N,N,N,y,lisinopril 10 daily,n,,continued,127/77,94,0.78,0.78,0.74,,,350,350,0.77,0.77,,,159,159,11.2,11.2,n,n,n,n,Y,1000,NS,,N,N,N,discharged
+256,y,82,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,1583,Y,N,N,Death
+257,y,79,M,36,Y,Y,Y,N,HFpEF,Unknown,N,N,N,Y,lisinopril 20 mg daily,n,,held,115/57,76,1.7,2.48,1.4,41,1079,214,604,0.61,0.61,42,86,186,689,2.2,19.9,y,n,n,n,Y,500,NS,286,Y,Y,N,Discharged
+258,y,56,M,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,Y,Y,
+259,y,82,F,26,Y,N,N,N,N,N,N,Y,N,n,,y,losartan 100 daily,"held, then continued",129/79,96,1.22,1.22,0.67,335.5,335.5,197,197,1.54,1.12,48,55,197,197,6.2,6.2,y,n,n,n,N,N/a,n/a,597,Y,N,N,Discharged
+260,y,32,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,Discharged
+261,y,79,F,,Y,N,,,HFpEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,4000,LR,672,N,Y,N,Discharged
+262,y,45,F,,N,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+263,y,37,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,19,N,N,N,discharged
+264,y,53,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,8,N,N,N,discharged
+265,y,47,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+266,y,78,M,,N,N,,,HFrEF,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,death
+267,y,75,F,,Y,Y,,,"HF, unknown EF",,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,1000,NS,5975,N,N,N,discharged
+268,y,84,F,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,63,Y,N,N,Discharged
+269,y,52,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+270,y,58,F,27,Y,Y,N,N,N,N,N,N,N,y,lisinopril 20 mg daily,n,,held,125/79,94,1.02,1.02,0.94,326,326,377,377,1.11,1.11,19,19,276,276,3.1,3.1,n,n,n,n,Y,1000,LR,,N,N,N,discharged
+271,y,34,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+272,y,74,F,36,Y,N,N,N,HFpEF,N,N,Y,"Y, asthma",n,,y,valsartan 20 mg daily,held,110/63,79,1.25,,,238,,484,,0.49,,69,,246,,17.2,,n,n,n,n,Y,1000,LR,451,Y,Y,Y,
+273,y,56,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,3000,LR and NS,134,N,Y,N,Discharged
+274,y,57,M,26,N,N,Y,N,HFrEF,N,N,N,N,n,,y,valsartan 50 daily (part of ARNI),held,122/77,92,1.03,1.03,0.71,2808,2808,413,677,1.24,0.57,19,19,343,28162,11.5,12.1,n,n,n,n,Y,2000,LR,1434,N,N,N,Discharged
+275,y,59,F,21,Y,N,Y,N,HFrEF,Y,Y,N,N,y,lisinopril 40 mg daily,n,,continued,170/79,109,3.19,8.2,8.2,,5006,256,348,1.32,0.65,,54,556,556,4.8,12.3,n/a (ESRD),y,y,n,N,N/a,n/a,47433,N,N,N,Discharged
+276,y,42,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,25,N,Y,Y,
+277,y,87,F,27,Y,N,N,N,HFpEF,Y,N,Y,N,y,lisinopril 40 mg daily,n,,"held, then continued",104/51,69,1.21,1.21,0.94,,,311,354,0.4,0.11,55,55,508,508,29.2,29.2,y,n,n,n,Y,500,LR,5819,N,N,N,discharged
+278,y,91,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,284,N,N,N,discharged
+279,y,55,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,26,N,N,N,discharged
+280,y,58,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,32,N,N,N,discharged
+281,y,57,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,Y,500,NS,186,N,N,N,discharged
+282,y,87,F,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,1322,N,N,N,Discharged
+283,y,71,M,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,NS,80,N,Y,Y,
+284,y,52,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,90,N,N,N,discharged
+285,y,88,M,,Y,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,500,n/a,1911,N,N,N,Discharged
+286,y,28,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,500,LR,35,N,N,N,Discharged
+287,y,67,M,26,Y,N,N,N,N,Y,N,N,N,n,,y,azilsartan 40 daily,held,141/69,93,1.86,,,514,,239,,1.51,,91,,161,,10.9,,y,Y,Y,Y,Y,1000,LR,159,Y,Y,Y,
+288,y,83,F,27,Y,Y,N,N,N,Y,N,N,N,n,,y,losartan 50 daily,continued,124/63,83,1.08,1.08,0.83,352,352,215,215,0.81,0.81,92,92,322,322,9.9,15.4,n,n,n,n,Y,2000,LR,,N,N,N,discharged
+289,y,54,F,26,Y,N,N,N,N,N,N,N,N,n,,y,valsartan 160 daily,continued,96/63,74,0.74,0.74,0.56,,,,,1.84,1.84,,,<150,<150,,,n,n,n,n,N,N/a,n/a,27,N,N,N,discharged
+290,y,44,F,,Y,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,y,n,n,n,N,2000,LR,,N,N,N,discharged
+291,y,73,F,27,Y,Y,N,N,N,N,N,N,N,y,ramipril 10 d,n,,"held, then continued",91/60,70,1.02,1.02,0.69,,,221,543,1.11,1.11,,4,,512,11.1,25.1,n,n,n,n,Y,1000,LR,696,N,N,N,discharged
+292,y,74,F,29,Y,N,N,N,HFpEF,N,N,N,N,n,,Y,losartan 100 daily,"held, then continued",113/71,85,1.58,1.58,0.84,,1509,,431,1.09,0.87,,,,,,11.6,y,n,n,n,Y,2000,LR,300,N,N,N,discharged
+293,y,54,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,,N,N,N,Discharged
+294,y,63,M,27,Y,N,N,N,N,N,N,N,N,y,ramipril 5 daily,n,,continued,112/62,79,0.79,0.8,0.75,521,741,305,330,0.43,0.43,63,95,173,658,15.7,28,n,n,n,n,N,N/a,n/a,253,N,N,N,Discharged
+295,y,44,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,2000,LR,8,N,N,N,Discharged
+296,y,72,M,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,,N,Y,Y,
+297,y,42,M,,Y,Y,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,500,LR,,N,Y,Y,
+298,y,65,M,,Y,Y,Y,N,N,N,N,N,N,y,lisinopril 5 mg daily,n,,held,119/73,88,1.25,1.25,1.12,472,562,374,435,0.74,0.49,79,79,731,731,13,13,n,n,n,n,N,N/a,n/a,133,N,N,N,Discharged
+299,y,52,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,N,N/a,n/a,,N,Y,Y,
+300,y,64,F,,N,N,,,N,,,,,n,,n,,,,,,,,,,,,,,,,,,,,n,n,n,n,Y,1000,LR,54,N,N,N,discharged
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+301,y,66,F,39.82,Y,Y,N,Y,N,N,N,N,"Y (OCP on CPAP, asthma)",N,N/A,Y,IRBESARTAN 75 mg,continue,101/46,80,1.04,1.04,0.81,193.3,265.7,348,488,0.65,0.43,,42,<150,5989,3,3.9,N,N,N/A,N/A,N,N/A,N/A,N/A,N,N,N,discharged
+302,y,57,M,32.04,Y,N,N,N,N,N,N,N,N,Y,LISINOPRIL 10 mg qd,N,N/A,continue,129/74,92,0.86,0.88,0.87,979.9,1254,359,608,0.71,0.39,13,51,229,1847,5.5,6.6,N,N,N/A,N/A,N,N/A,N/A,165,N,Y,N,discharged
+303,y,74,F,26.94,Y,N,N,N,N,N,N,Y,"Y (NSCLC, Lung metastasis from gastric adenocarcinoma, second primary lung cancer in RUL, Acute hypoxemic respiratory failure)",N,N/A,N,N/A,N/A,116/75,76,0.6,0.64,0.49,2491,2491,563,712,0.88,0.39,16,29,1280,2644,20.8,20.8,N,N,N/A,N/A,Y,1000,LR,2622,N,N,N,discharged
+304,y,80,M,27.67,Y,N,N,N,N,N,N,N,N,N,N/A,Y,IRBESARTAN 300 mg,continue,159/66,115,1.16,4.24,,N/A,2672,346,567,0.28,0.21,N/A,99,N/A,5763,8.1,31.6,Y,N,N/A,N/A,Y,1000,LR,N/a,N,Y,Y,
+305,y,63,M,Not listed,Y,N,N,N,N,N,N,N,N,N,N/A,Y,LOSARTAN 50 mg,continue,81/46,58,1.07,1.25,,1009,9601,480,771,0.5,N/A,63,>145,396,3133,10.4,32.2,N,N,N/A,N/A,Y,1000,LR,307,N,Y,Y,
+306,y,52,M,37.33,N,N,N,N,N,N,N,Y,N,N,N/A,N,N/A,N/A,137/84,93,0.86,0.97,0.97,N/A,1885,649,649,1.55,0.73,19,45,174,776,11.5,11.5,N,N,N/A,N/A,N,N/A,N/A,101,N,Y,Y,Death
+307,y,61,M,26.12,N,N,N,N,N,N,N,N,N,N,N/A,N,N/A,N/A,115/70,99,0.98,0.98,0.82,833.8,833.8,323,405,0.73,0.73,65,78,466,536,22,22,N,N,N/A,N/A,Y,2400,NS,N/A,N,N,N,discharged
+308,y,96,M,25.27,Y,N,N,N,N,N,N,N,N,N,N/A,Y,LOSARTAN 50 mg,hold,102/62,75,1.34,1.34,1.03,266.8,1413,289,382,3.25,0.95,15,84,1813,1813,0.9,20,N,N,N/A,N/A,Y,2400,LR,1568,N,N,N,discharged
+309,y,46,M,24.92,Y,N,N,N,N,N,Y,N,N,N,N/A,N,N/A,N/A,114/76,85,14.58,17.74,11.54,1246,2948,402,669,1.42,1.56,29,69,546,4119,1.1,3.3,Y,Y,Y,N/A,N,N/A,N/A,N/A,N,N,N,discharged
+310,y,62,M,23.74,N,N,N,N,N,N,N,N,N,N,N/A,N,N/A,N/A,156/83,90,1.09,1.09,0.8,N/A,1379,227,377,0.67,0.67,N/A,57,793,1009,2.8,7.1,N,N,N/A,N/A,N,N/A,N/A,76,N,N,N,discharged
+311,y,41,M,21.85,N,N,N,N,N,N,N,N,N,N,N/A,N,N/A,N/A,128/82,97,1.57,1.65,1.38,1380,1380,500,500,0.85,0.75,15,38,186,186,6.4,8.4,N,N,N/A,N/A,Y,1000,NS,24,N,N,N,discharged
+312,y,51,M,24.52,N,Y,N,N,N,N,N,N,N,N,N/A,N,N/A,N/A,121/77,93,0.69,0.69,0.49,1054,1780,367,367,0.82,0.36,46,98,411,2918,27.4,39.8,N,N,N/A,N/A,Given but not specified,,,,N,Y,Y,discharged
+313,y,80,M,29.9,Y,N,Y,N,N,N,N,Y,N,N,N/A,N,N/A,N/A,134/72,93,1.36,1.61,2236,2236,2236,429,604,0.72,0.45,54,90,298,4752,9.1,14.7,N,N,N/A,N/A,Y,1000,LR,1840,N,Y,Y,
+314,y,83,F,28.65,Y,N,N,N,N,N,N,N,N,N,N/A,N,N/A,N/A,141/68,90,0.72,0.76,0.66,280,639.1,195,293,0.68,0.56,59,105,329,720,4,14.5,N,N,N/A,N/A,N,N/A,N/A,668,N,N,N,discharged
+315,y,68,F,36.33,N,N,N,N,N,N,N,N,N,N,N/A,N,N/A,N/A,132/58,85,0.64,0.74,0.74,586.3,586.3,441,441,0.65,0.65,37,38,3678,5050,3.8,3.8,N,N,N/A,N/A,N,N/A,N/A,N/A,N,N,N,discharged
+316,y,46,F,29.74,N,N,N,N,N,N,N,N,N,N,N/A,N,N/A,N/A,117/66,89,0.47,0.5,0.5,68.2,68.2,323,397,0.77,0.65,N/A,107,239,5045,12.2,12.2,N,N,N/A,N/A,N,N/A,N/A,N/A,N,N,N,discharged
+317,y,60,M,27.67,N,N,N,N,N,N,N,N,N,N,N/A,N,N/A,N/A,108/69,82,0.96,0.96,0.77,347.5,387,346,480,1.29,1.29,N/A,56,214,301,3.4,3.4,N,N,N/A,N/A,N,N/A,N/A,207,N,N,N,discharged
+318,y,58,M,31.84,Y,N,N,N,N,N,N,N,N,N,N/A,N,N/A,N/A,123/85,102,0.95,1.12,,1245,1359,457,546,0.82,0.71,48,65,205,2469,9.2,24.5,N,N,N/A,N/A,Y,3000,NS,33,N,Y,Y,
+319,y,90,M,27.34,N,N,N,N,N,N,N,N,N,N,N/A,N,N/A,N/A,112/65,81,0.89,0.89,0.69,443.3,560.9,282,327,1.1,0.67,54,97,408,4562,12.9,19,N,N,N/A,N/A,Y,2000,NS,N/A,N,N,N,discharged
+320,y,70,M,36.73,Y,Y,Y,N,N,N,N,N,N,N,N/A,N,N/A,N/A,142/85,113,0.84,1.04,,828,1476,545,921,1.41,1.41,42,107,793,1360,11.5,40.5,N,N,N/A,N/A,Y,1000,LR,71,N,Y,Y,
+321,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+322,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+323,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+324,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+325,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+326,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+327,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+328,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+329,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+330,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+331,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+332,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+333,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+334,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+335,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+336,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+337,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+338,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+339,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+340,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+341,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+342,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+343,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+344,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+345,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+346,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+347,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+348,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+349,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+350,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+351,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+352,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+353,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+354,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+355,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+356,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+357,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+358,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+359,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+360,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+361,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+362,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+363,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+364,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+365,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+366,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+367,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+368,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+369,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+370,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+371,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+372,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+373,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+374,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+375,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+376,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+377,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+378,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+379,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+380,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+382,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+383,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+384,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+385,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+386,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+387,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+388,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+389,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+390,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+391,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+392,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+393,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+394,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+396,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+397,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+398,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+399,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+400,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+401,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+402,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+403,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+404,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+405,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+406,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+407,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+408,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+409,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+410,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+411,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+412,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+413,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+414,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+415,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+416,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+418,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+420,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+421,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+422,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+423,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+424,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+425,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+426,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+427,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+428,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+429,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+430,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+431,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+432,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+433,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+434,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+435,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+436,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+437,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+438,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+439,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+440,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+441,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+442,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+443,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+445,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449,y,49,M,44,y,n,n,n,n,n,n,n,n,y,ramipril 10,n,n,changed to lisinopril 20,139/75,96,0.89,0.89,0.77,n/a,4018,355,461,1.21,1.21,,95,231,448,10.7,23.6,n,n,n,n,y,1000,LR,25,n,n,n,discharged
+450,y,84,F,22,y,n,y,y,n,n,n,n,y (asthma),n,,y,LOSARTAN 50 mg,continued,170/81,111,1.04,2.04,1.18,191,257,325,500,,0.25,76,118,307,413,,214,y,n,n,n,n,,,,n,y,y,pending
+451,y,67,F,39,y,y,n,n,n,n,n,n,n,n,,n,,,152/72,99,0.79,0.97,0.97,230,359,309,532,0.41,0.41,36,54,<150,424,4,4,n,n,n,n,n,,,,n,n,n,discharged
+452,y,42,F,30,y,n,n,n,n,n,n,n,n,n,,y,losartan 25,held,108/64,79,0.74,0.77,0.77,1545,4060,406,551,0.83,0.82,55,94,168,243,5.9,13.3,n,n,n,n,n,,,,n,n,n,discharged
+453,y,41,M,41,y,n,n,n,n,n,n,n,n,n,,n,LOSARTAN 50 mg,continued,132/89,103,1.07,13.82,,995,39392,3100,3820,1.59,0.27,23,112,396,51541,21.8,25,y,y,y,n,n,,,,n,y,y,pending
+454,y,47,M,33,n,n,n,n,n,n,n,n,n,n,,n,,,120/77,91,0.97,0.97,0.78,1018,2312,202,587,5.2,5.2,52,52,178,612,21.6,37.8,n,n,n,n,y,2000,LR,91,n,n,n,discharged
+455,y,44,M,34,n,n,n,n,n,n,n,n,n,n,,n,,,120/82,95,1.4,1.4,1.16,785,896,375,375,1.07,1.07,52,68,233,326,10.4,10.4,y,n,n,n,n,1000,LR,,y,n,n,discharged
+456,y,60,m,not recorded,n,n,n,n,n,n,n,n,n,n,,n,,,191/86,121,1.62,6.03,2.94,925,1490,505,661,1.31,0.26,44,93,244,19764,18.5,55.6,y,y,n,y,y,2000,LR,41,n,y,y,deceased
+457,y,62,m,32,n,n,n,n,n,n,n,n,n,n,,n,,,113/67,82,1.73,2.22,2.22,1231,2692,966,1312,0.84,0.84,25,25,2266,17327,33.2,1.9,y,n,n,n,y,2000,LR,,n,y,y,deceased
+458,y,63,m,not recorded,y,n,y,n,n,n,n,n,n,n,,y,losartan 25,continued,122/62,82,0.91,0.91,0.65,843,1063,295,411,0.26,0.24,64,64,203,1467,16.7,22.5,n,n,n,n,n,,,469,n,n,n,discharged
+459,y,69,f,24,y,y,n,n,n,n,n,n,n,n,,n,,,147/58,88,0.53,0.53,0.53,1879,1879,465,465,1.63,1.63,78,78,261,261,7.7,7.7,n,n,n,n,n,,,,n,n,n,discharged
+460,y,46,m,32,n,n,n,n,n,n,n,n,n,n,,n,,,128/83,98,0.82,0.93,0.85,655,769,382,451,1.2,1.2,26,48,190,569,,,n,n,n,n,y,1000,LR,,n,n,n,discharged
+461,y,57,f,29,y,y,n,n,n,n,n,n,n,n,,n,,,134/66,89,0.28,0.36,0.36,1140,1140,275,329,1.81,1.81,,87,1027,1027,11.6,21.6,n,n,n,n,y,2000,LR,,n,y,n,discharged
+462,y,39,m,33,n,n,n,n,n,n,n,n,n,n,,n,,,114/69,84,0.86,0.86,0.78,1151,1151,533,575,1.75,1.04,,42,173,321,9.3,10.8,n,n,n,n,y,1000,LR,11,n,n,n,discharged
+463,y,47,m,not recorded,n,n,n,n,n,n,n,n,n,n,,n,,,115/77,90,0.79,0.83,0.75,900,2349,383,585,1.46,0.75,39,114,,570,2,8.2,n,n,n,n,y,1000,NS,,n,n,n,discharged
+464,y,50,M,30,n,n,n,n,n,n,n,n,n,n,,n,,,136/67,90,0.67,0.72,0.55,571,648,333,411,1.67,0.67,58,79,268,2126,10,10,n,n,n,n,y,2000,LR,,n,y,y,discharged
+465,y,52,F,20,n,n,n,n,n,n,n,n,y (asthma),n,,n,,,98/66,77,0.68,0.68,0.61,,,396,396,1.02,1.02,,,289,289,9.1,12,n,n,n,n,y,1500,LR,89,n,n,n,discharged
+466,y,79,F,23,y,y,n,n,n,n,n,n,n,n,,n,,,128/74,92,0.68,0.68,0.46,412,1279,471,1367,0.56,0.56,73,100,1124,17546,13.6,30.3,n,n,n,n,n,,,104,n,n,n,deceased
+467,y,25,M,48,n,n,n,n,n,n,n,n,n,n,,n,,,137/68,91,0.73,0.89,0.75,704,704,,,2.22,2.08,,,,,5.1,5.1,n,n,n,n,n,,,,n,n,n,discharged
+468,y,56,F,,,,,,,,,,,,,,,,107/66,80,,,,,,,,,,,,,,,,,,,,,,,,,y,y,pending
+469,y,82,m,22,y,n,n,n,n,n,n,n,n,n,,n,,,115/63,80,1.12,1.12,0.94,283,337,423,669,0.39,0.32,47,47,,,6.3,9.7,n,n,n,n,n,,,,n,n,n,deceased
+470,y,42,f,not recorded,n,y,n,n,n,n,n,n,n,n,,n,,,99/65,77,0.47,0.5,0.4,222,246,264,293,1.35,1.35,14,16,<150,<150,2.4,2.4,n,n,n,n,y,1000,LR,19,n,n,n,discharged
+471,y,46,f,41,y,y,n,y,n,n,n,n,n,n,,n,,,97/68,78,0.82,0.87,0.87,2239,2239,380,404,1.37,1.37,71,71,170,170,3.3,3.3,n,n,n,n,n,,,5,n,n,n,discharged
+472,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+473,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+474,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+475,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+476,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+477,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+478,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+479,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+480,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+481,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+482,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+483,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+484,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+485,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+486,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+487,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+488,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+489,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+490,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+491,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+492,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+493,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+494,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+495,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+496,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+497,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+498,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+499,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+500,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+501,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+502,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+503,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+504,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+505,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+506,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+507,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+508,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+509,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+510,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+511,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+512,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+513,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+514,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+515,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+516,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+517,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+518,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+519,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+520,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+521,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+522,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+523,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+524,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+525,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+526,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+527,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+528,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+529,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+530,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+531,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+532,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+533,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+534,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+535,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+536,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+537,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+538,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+539,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+540,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+541,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+542,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+543,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+544,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+545,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+546,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+547,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+548,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+549,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+550,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+551,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+552,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+553,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+554,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+555,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+556,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+557,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+558,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+559,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+560,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+561,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+562,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+563,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+564,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+565,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+566,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+567,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+568,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+569,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+570,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+571,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+572,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+573,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+574,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+575,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+576,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+577,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+578,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+579,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+580,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+581,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+582,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+583,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+584,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+585,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+586,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+587,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+588,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+589,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+590,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+591,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+592,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+593,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+594,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+595,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+596,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+597,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+598,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+599,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+600,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+601,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+602,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+603,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+604,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+605,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+606,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+607,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+608,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+609,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+610,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+611,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+612,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+613,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+614,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+615,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+616,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+617,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+618,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+619,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+620,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+621,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+622,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+623,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+624,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+625,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+626,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+627,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+628,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+629,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+630,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+631,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+632,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+633,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+634,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+635,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+636,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+637,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+638,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+639,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+640,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+641,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+642,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+643,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+644,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+645,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+646,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+647,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+648,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+649,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+650,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+651,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+652,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+653,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+654,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+655,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+656,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+657,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+658,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+659,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+660,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+661,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+662,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+663,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+664,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+665,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+666,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+667,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+668,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+669,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+670,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+671,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+672,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+673,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+674,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+675,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+676,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+677,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+678,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+679,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+680,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+681,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+682,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+683,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+684,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+685,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+686,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+687,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+688,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+689,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+690,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+691,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+692,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+693,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+694,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+695,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+696,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+697,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+698,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+699,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+700,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+701,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+702,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+703,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+704,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+705,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+706,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+707,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+708,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+709,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+710,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+711,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+712,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+713,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+714,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+715,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+716,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+717,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+718,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+719,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+720,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+721,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+722,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+723,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+724,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
